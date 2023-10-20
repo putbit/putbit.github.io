@@ -6,6 +6,7 @@ theme: Agnes
 params:
   dateFormat: 'Jan 1, 2023'
   authorName: PutBit, LLC
+  google_analytics_id: 'G-Y642WPYHHD'
 
   content:
     LeadTitle: PutBit
