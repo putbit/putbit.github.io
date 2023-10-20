@@ -1,0 +1,22 @@
+baseURL: https://putbit.io/
+languageCode: en-us
+title: PutBit
+theme: Agnes
+
+params:
+  dateFormat: 'Jan 1, 2023'
+  authorName: PutBit, LLC
+
+  content:
+    LeadTitle: PutBit
+    LeadDescription: Under construction
+
+  # feature:
+  #   - FeatureTitle: Foo bar
+  #     FeatureDescription: Blah
+
+# menu:
+#   main:
+#     - Name: Contact
+#       URL: '#'
+#       weight: 1

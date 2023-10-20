@@ -1,0 +1,3 @@
+[submodule "themes/Agnes"]
+	path = themes/Agnes
+	url = git@github.com:stephentuso/agnes-hugo-theme.git
