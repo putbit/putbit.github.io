@@ -1,0 +1,6 @@
+<footer class="p-8 text-tertiary flex justify-center">
+  <div class="w-full max-w-content pt-8 border-t-2 border-primary">
+    {{ partial "menu.html" (dict "menuID" "footer" "page" .) }}
+    <div class="footer-copyright">&copy; {{ now.Format "2006"}} {{ .Site.Params.authorName | markdownify }}</div>
+  </div>
+</footer>

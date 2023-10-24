@@ -1,7 +1,6 @@
 baseURL: https://putbit.io/
 languageCode: en-us
 title: PutBit
-theme: Agnes
 
 params:
   dateFormat: 'Jan 1, 2023'
@@ -16,8 +15,13 @@ params:
   #   - FeatureTitle: Foo bar
   #     FeatureDescription: Blah
 
-# menu:
-#   main:
-#     - Name: Contact
-#       URL: '#'
-#       weight: 1
+menu:
+  footer:
+    - Name: Contact
+      URL: '#'
+      weight: 1
+
+security:
+  exec:
+    osEnv:
+      - '.*'
