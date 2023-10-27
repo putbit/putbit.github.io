@@ -6,6 +6,9 @@ module.exports = {
   content: ['./layouts/**/*.html', './content/**/*.md'],
   theme: {
     extend: {
+      fontFamily: {
+        mono: ['Noto Sans Mono', 'monospace'],
+      },
       colors: {
         primary: {
           light: colors.white,
